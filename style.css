@@ -58,7 +58,7 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 50%, #553c9a 100%);
+    background: linear-gradient(135deg, #56ccf2 0%, #2f80ed 50%, #1e3a8a 100%);
     background-attachment: fixed;
     min-height: 100vh;
     color: var(--text-primary);
@@ -75,8 +75,8 @@ body::before {
     width: 100%;
     height: 100%;
     background:
-        radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.2) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(79, 70, 229, 0.2) 0%, transparent 50%);
+        radial-gradient(circle at 20% 50%, rgba(86, 204, 242, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(47, 128, 237, 0.3) 0%, transparent 50%);
     animation: backgroundShift 15s ease infinite;
     pointer-events: none;
     z-index: 0;
@@ -260,7 +260,7 @@ body::before {
     padding: var(--spacing-md) var(--spacing-xl);
     border: none;
     border-radius: var(--radius-md);
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    background: linear-gradient(135deg, #56ccf2, #2f80ed);
     color: white;
     font-size: 1rem;
     font-weight: 600;
@@ -269,12 +269,12 @@ body::before {
     display: flex;
     align-items: center;
     gap: var(--spacing-xs);
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 4px 12px rgba(86, 204, 242, 0.3);
 }
 
 .search-box button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 6px 20px rgba(86, 204, 242, 0.4);
 }
 
 .search-box button:active {
@@ -527,7 +527,7 @@ body::before {
 .info-card h4 {
     margin: 0 0 4px;
     color: var(--primary-color);
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -537,7 +537,7 @@ body::before {
     margin: 0;
     font-weight: 600;
     color: var(--text-primary);
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     word-wrap: break-word;
     line-height: 1.3;
 }
