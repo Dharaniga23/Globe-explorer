@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover detailed information about countries around the world">
+    <title>Globe Explorer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <header class="header">
+            <h1 class="animated-title">Globe Explorer</h1>
+            <p class="subtitle">Discover detailed information about countries worldwide</p>
+        </header>
+
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="countryInput" placeholder="Enter country name (e.g., Japan, Brazil, France)"
+                    aria-label="Country name input" autocomplete="off">
+                <button onclick="getCountry()" aria-label="Search country">
+                    <span class="btn-text">Search</span>
+                    <span class="btn-icon">🔍</span>
+                </button>
+            </div>
+
+            <!-- Recent Searches -->
+            <div id="recentSearches" class="recent-searches"></div>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Loading country information...</p>
+        </div>
+
+        <!-- Result Container -->
+        <div id="result" class="result-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
