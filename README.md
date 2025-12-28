@@ -192,8 +192,7 @@ SOFTWARE.
 
 ## 👤 Author
 
-Your Name
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [@Dharaniga23](https://github.com/Dharaniga23)
 
 ## 🙏 Acknowledgments
 
